@@ -1,0 +1,31 @@
+"VertexlitGeneric"
+{
+	//$AmbientOcclTexture "mat_dir\untitled_body_AO"
+	//$AmbientOcclColor "[.4 .4 .4]"
+	//$ambientocclusion 1
+
+	$basetexture "mat_dir\untitled_body_BaseColor"
+	$nocull 1
+	//$envmap			env_cubemap
+	//$envmapmask		"mat_dir\untitled_body_Metallic"
+	//$envmaptint "[ 0.5 0.5 0.5 ]"
+	
+	//$bumpmap "mat_dir\untitled_body_Normal"
+
+
+   	//"$selfillum" "0"
+    	//"$selfillumtint"    "[ 0.5 0.5 0.5 ]"
+	//"$selfillummask" "mat_dir\untitled_body_Metallic"
+
+    	//"$phong" "0"
+    	//"$phongexponent" "300"
+    	//"$phongboost"    "2"
+    	//"$phongfresnelranges"    "[.2 5 5]"
+
+    	//"$rimlight" "0"
+    	//"$rimlightexponent" "20"
+    	//"$rimlightboost" "1"
+
+}
+
+
