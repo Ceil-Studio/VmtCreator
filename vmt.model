@@ -1,30 +1,30 @@
-"VertexlitGeneric"
+"VertexLitGeneric"
 {
-	//$AmbientOcclTexture "mat_dir\untitled_body_AO"
+	//$AmbientOcclTexture "mat_dir\untitled_body_ao"
 	//$AmbientOcclColor "[.4 .4 .4]"
 	//$ambientocclusion 1
 
-	$basetexture "mat_dir\untitled_body_BaseColor"
-	$nocull 1
+	$basetexture "mat_dir\untitled_body_basecolor"
+	$nocull 0
 	//$envmap			env_cubemap
-	//$envmapmask		"mat_dir\untitled_body_Metallic"
+	//$envmapmask		"mat_dir\untitled_body_metallic"
 	//$envmaptint "[ 0.5 0.5 0.5 ]"
 	
-	//$bumpmap "mat_dir\untitled_body_Normal"
+	//$bumpmap "mat_dir\untitled_body_normal"
 
 
-   	//"$selfillum" "0"
-    	//"$selfillumtint"    "[ 0.5 0.5 0.5 ]"
-	//"$selfillummask" "mat_dir\untitled_body_Metallic"
+	//"$selfillum" "0"
+	//"$selfillumtint"    "[ 0.5 0.5 0.5 ]"
+	//"$selfillummask" "mat_dir\untitled_body_metallic"
 
-    	//"$phong" "0"
-    	//"$phongexponent" "300"
-    	//"$phongboost"    "2"
-    	//"$phongfresnelranges"    "[.2 5 5]"
+	//"$phong" "1"
+	//"$phongexponent" "25"
+	//"$phongboost"    "1"
+	//"$phongfresnelranges"    "[0.1 0.5 1]"
 
-    	//"$rimlight" "0"
-    	//"$rimlightexponent" "20"
-    	//"$rimlightboost" "1"
+	//"$rimlight" "1"
+	//"$rimlightexponent" "4"
+	//"$rimlightboost" ".2"
 
 }
 
